@@ -1,0 +1,34 @@
+.text-primary {
+  color: #d98841;
+}
+
+.text-bg {
+  color: #d98841;
+  font-size: 57px;
+}
+
+/* Flex columns*/
+.flex-columns .row {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
